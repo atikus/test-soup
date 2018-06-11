@@ -19,10 +19,7 @@ public class HepsiBurada extends MainCrawler {
     @Override
     public String GetPrice(String Url) throws IOException{
         Document doc = GetHtml(Url);
-        
-        System.out.println(doc.title());
         Elements priceElem = doc.select("#offering-price");
-        
         String p = priceElem.first().attr("content");
         
         return p;

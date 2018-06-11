@@ -1,0 +1,4 @@
+Haz 11, 2018 4:25:03 PM com.mycompany.test.soup.deneme main
+INFO: start crawling...
+Haz 11, 2018 4:25:03 PM com.mycompany.test.soup.deneme main
+WARNING: hello world
