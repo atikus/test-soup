@@ -13,9 +13,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.logging.FileHandler;
-import java.util.logging.Logger;
-import java.util.logging.SimpleFormatter;
 
 /**
  *
@@ -23,10 +20,6 @@ import java.util.logging.SimpleFormatter;
  */
 public class deneme {
     
-    static private FileHandler fileTxt;
-    static private SimpleFormatter formatterTxt;
-    
-    private static Logger log = null;
     
     
     /**
@@ -81,6 +74,13 @@ public class deneme {
     
     
     public class MyLogger {
+        
+        
+//        static private FileHandler fileTxt;
+//        static private SimpleFormatter formatterTxt;
+//
+//        private static Logger log = null;
+        
         
 //        log = Logger.getLogger(deneme.class.getName());
 //
